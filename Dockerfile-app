@@ -21,7 +21,7 @@ COPY --from=build /project/target/bmi-1.0.jar /app/bmi.jar
 
 WORKDIR /app
 
-RUN chown -R teco:tecogroup /app
+RUN chown -R teco:hari1036 /app
 
 EXPOSE 8000
 
